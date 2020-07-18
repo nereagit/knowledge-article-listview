@@ -4,7 +4,7 @@
             {label: 'Title', fieldName: 'linkName', type: 'url', typeAttributes: {label: { fieldName: 'Title' }, target: '_blank'}},
             {label: 'Created Date', fieldName: 'CreatedDate', type: 'date'},
             {label: 'Type', fieldName: 'recordTypeName', type: 'text'},
-            {label: 'Language', fieldName: 'Language', type: 'text'}
+            {label: 'Time (minutes)', fieldName: 'Time__c', type: 'text'}
     ]);
 
     var fetchData = {
@@ -12,7 +12,8 @@
         CreatedDate : "CreatedDate",
         recordTypeName : "recordTypeName",
         Language : "Language",
-        linkName : "linkName"
+        linkName : "linkName",
+        Time : "Time__c"
     };
 
 
